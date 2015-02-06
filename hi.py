@@ -17,6 +17,9 @@ if answer.lower() == 'yes':
         print 'Well, good bye', name
     elif answer == '2':
         print 'Sakalangkong', name
+    else:
+        print 'You choose wrong answer, I am terminated.'
+        print 'bye'
 elif answer.lower() == 'no':
     print "thank you"
 else:
