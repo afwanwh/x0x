@@ -21,3 +21,4 @@ elif answer.lower() == 'no':
     print "thank you"
 else:
     print "your answer is wrong"
+    print "Please come back later. Thank you!"
