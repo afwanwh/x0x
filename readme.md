@@ -10,5 +10,5 @@ python /path_to_x0x_folder/hi.py
 python /path_to_x0x_folder/gcd.py
 
 # Questions?
-Any question or feedback please send an email to afwanwalihamim@gmail.com
+Any question or feedback please message me.
 Thank you. 😀
