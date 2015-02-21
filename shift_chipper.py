@@ -7,10 +7,18 @@ choice = raw_input('Enter your choice: ')
 if choice == '1':
     txt = raw_input('Enter your text to encrypt: ')
     key = raw_input('Enter your key (must a number): ')
-    print 'Your chiper text: ' + encrypt_shift(key, txt)
+    try:
+        if int(key):
+            print 'Your chiper text: ' + encrypt_shift(key, txt)
+    except ValueError:
+        print "Key must an integer number!"
 elif choice == '2':
     txt = raw_input('Enter your text to decrypt: ')
     key = raw_input('Enter your key (must a number): ')
-    print 'Your plain text: ' + decrypt_shift(key, txt)
+    try:
+        if int(key):
+            print 'Your plain text: ' + decrypt_shift(key, txt)
+    except ValueError:
+        print "Key must an integer number!"
 else:
     print 'Wrong choice, please choice 1 or 2'

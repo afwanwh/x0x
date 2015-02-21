@@ -34,7 +34,7 @@ def encrypt_shift(key, text):
     text.lower()
     chiptxt = ''
     for _chr in text:
-        if char_map.get(_chr, False):
+        if _chr in char_map.keys():
             calc = (char_map[_chr] + int(key)) % 26
             chiptxt += char_map_inv[calc]
         else:
@@ -46,7 +46,7 @@ def decrypt_shift(key, text):
     text.lower()
     pltxt = ''
     for _chr in text:
-        if char_map.get(_chr, False):
+        if _chr in char_map.keys():
             calc = (char_map[_chr] - int(key)) % 26
             pltxt += char_map_inv[calc]
         else:
