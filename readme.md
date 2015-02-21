@@ -9,6 +9,9 @@ python /path_to_x0x_folder/hi.py
 # Running gcd.py
 python /path_to_x0x_folder/gcd.py
 
+# Running shift_chipper.py
+python /path_to_x0x_folder/shift_chipper.py
+
 # Questions?
 Any question or feedback please message me.
 Thank you. 😀
