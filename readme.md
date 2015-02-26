@@ -4,15 +4,15 @@ The applications are based on python language. On Ubuntu, Python installed by de
 Just open terminal and run the srcipts.
 
 # Running hi.py
-It's just a "Hello World" Program. Say hi to x0x. :)
+It's just a "Hello World" Program. Say hi to x0x. :) \n
 python /path_to_x0x_folder/hi.py
 
 # Running gcd.py
-Look for a Greatest Common Divisor between two number? Run it. 
+Look for a Greatest Common Divisor between two number? Run it. \n
 python /path_to_x0x_folder/gcd.py
 
 # Running shift_chipper.py
-Very old fashioned encryption system. Let's see how it works.
+Very old fashioned encryption system. Let's see how it works. \n
 python /path_to_x0x_folder/shift_chipper.py
 
 # Questions?
