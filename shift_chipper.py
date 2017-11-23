@@ -21,4 +21,4 @@ elif choice == '2':
     except ValueError:
         print "Key must an integer number!"
 else:
-    print 'Wrong choice, please choice 1 or 2'
+    print 'Wrong choice, please choice 1 or 2 not now'
