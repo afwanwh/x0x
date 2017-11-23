@@ -20,5 +20,6 @@ elif choice == '2':
             print 'Your plain text: ' + decrypt_shift(key, txt)
     except ValueError:
         print "Key must an integer number!"
+        print "you must not follow this"
 else:
-    print 'Wrong choice, please choice 1 or 2'
+    print 'Wrong choice, please choice 1 or 2 this aint song'
