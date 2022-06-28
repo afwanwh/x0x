@@ -25,4 +25,4 @@ elif answer.lower() == 'no':
 else:
     print "your answer is wrong"
     print "Please come back later. Thank you!"
-    print "yoyoi"
+    print "yoyoi oke"
