@@ -24,4 +24,4 @@ python /path_to_x0x_folder/shift_chipper.py
 #### Questions?
 Any question or feedback please message me.
 Thank you. 😀
-Have a nice day.
+Have a nice day!
