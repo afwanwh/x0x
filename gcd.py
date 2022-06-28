@@ -18,7 +18,7 @@ def gcd(a, b):
 
 # Call the gcd(a,b) with input.
 print '##############################################################################'
-print 'Welcome to GCD 1.0!'
+print 'Welcome to GCD 1.0'
 print 'This program is for finding greatest common divisor.'
 print 'Input is two numbers, both of the are integers. Then it will return the gcd.'
 print '##############################################################################\n'

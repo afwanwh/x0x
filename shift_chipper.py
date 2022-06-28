@@ -6,7 +6,7 @@ print 'What do you want?\n1. Encrypt a text\n2. Decrypt a code'
 choice = raw_input('Enter your choice: ')
 if choice == '1':
     txt = raw_input('Enter your text to encrypt: ')
-    key = raw_input('Enter your key (must a number): ')
+    key = raw_input('Enter your key (must an integer): ')
     try:
         if int(key):
             print 'Your chiper text: ' + encrypt_shift(key, txt)
